@@ -19,3 +19,12 @@ html {
     width: 100%;
 }
 
+.playableCharacter {
+
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 00%;
+    background-color: none;
+}
+

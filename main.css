@@ -1,0 +1,21 @@
+html {
+    overflow: hidden;
+}
+
+#backgroundImage{
+    position: absolute;
+    z-index: -1;
+    background-color: #151826;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#mainImage {
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    width: 100%;
+}
+

@@ -1,12 +1,15 @@
 // define variables
 
+let guessedPattern =[]
+
+let correctPattern = ['left', 'down', 'up', 'right', 'up']
+
 //time bar
 
 //pattern tracker
 
-//arrow functions
 
-function arrow
+//arrow functions
 
 //sound effects
 

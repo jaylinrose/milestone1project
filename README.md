@@ -11,3 +11,9 @@ You can trigger NightBorne's super attack, or soul-reaper-death explosion by gue
 //Game Expansion
 
 The current launched game has ways to grow and develop. Main highlight being the game is designed as only one level, whereas in hindsight the game would have multiple levels increasing in difficulty and changing NighBorne's attack mechanics and upgrades. 
+
+//resources
+
+itch.io
+
+characters idle gifs source and background forest source.

@@ -6,6 +6,8 @@
 
 //arrow functions
 
+function arrow
+
 //sound effects
 
 //pattern reset

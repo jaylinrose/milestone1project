@@ -62,7 +62,7 @@ html {
 
 }
 
-p {
+ p:first-child {
     position: absolute;
     z-index: 4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -103,5 +103,28 @@ p {
     top: 30%;
     left: 77%;
     width: 3%;
+}
+
+#gameInstructions-container {
+    position: absolute;
+    z-index: 8;
+
+    background-color: black;
+    top: 30%;
+    left: 24%;
+    width: 50%;
+    height: 40%;
+
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding-top: 3%;
+}
+
+#gameInstructions-info {
+    color: white;
+    text-align: center;
 }
 

@@ -73,3 +73,35 @@ p {
     left: 38%;
 }
 
+#leftBtn {
+    position: absolute;
+    z-index: 7;
+    top:25%;
+    left: 74%;
+    width: 3%;
+}
+
+#upBtn {
+    position: absolute;
+    z-index: 7;
+    top: 20%;
+    left: 77%;
+    width: 3%;
+}
+
+#rightBtn {
+    position: absolute;
+    z-index: 7;
+    top: 25%;
+    left: 80%;
+    width: 3%;
+}
+
+#downBtn {
+    position: absolute;
+    z-index: 7;
+    top: 30%;
+    left: 77%;
+    width: 3%;
+}
+

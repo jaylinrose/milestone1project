@@ -62,7 +62,7 @@ html {
 
 }
 
- p:first-child {
+ p:not(:nth-child(2)) {
     position: absolute;
     z-index: 4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

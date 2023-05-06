@@ -43,10 +43,3 @@ html {
     top: 67%;
     left: 0%;
 }
-
-#meterTimer {
-    position: relative;
-    background-color: rgb(100, 0, 0);
-    color:  rgb(100, 0, 0) ;
-    z-index: 5;
-}

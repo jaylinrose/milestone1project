@@ -28,6 +28,8 @@ document.addEventListener('keydown', function(e){
     }
 })
 
+Callback(e)
+
 document.addEventListener('keyup', function(e){
     key === null
 })

@@ -43,3 +43,33 @@ html {
     top: 67%;
     left: 0%;
 }
+
+#startButton {
+
+    position: absolute;
+    z-index: 5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 50%;
+    left: 50%;
+}
+
+#gameButton {
+    position: absolute;
+    z-index: 6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 60%;
+    left: 49%;
+
+}
+
+p {
+    position: absolute;
+    z-index: 4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-family: 'Foldit', cursive;
+    font-size: xxx-large;
+    top: 10%;
+    left: 38%;
+}
+

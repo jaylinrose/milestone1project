@@ -14,6 +14,30 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+<style>
+        body {
+            animation: fadeOutAnimation ease 5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            transition: all;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 3;
+            }
+
+            25% {
+                opacity: 2;
+            }
+
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+</style>
     <title>Portals</title>
 </head>
 <body>
@@ -27,12 +51,15 @@
     // how to make button load page https://www.scaler.com/topics/how-to-make-a-button-link-to-another-page-in-html/
     <button id="startButton" onclick = "window.location.href='playerScreen.html';">Start</button>
     <button id="gameButton" onclick = "window.location.href='gamePlay.html';">Game Play</button>
-    // how to add audio to page https://noaheakin.medium.com/adding-sound-to-your-js-web-app-f6a0ca728984#:~:text=The%20simplest%20way%20to%20add,starts%20playing%20the%20current%20audio.
-    <audio id="audio" audio loop src="./strange_moon_loop (1).flac"></audio>
+   // how to add audio https://www.tutorialathome.in/html/playing-audio-page-loads-html5
+    <!--<audio id="audio" audio loop src="./strange_moon_loop (1).flac"></audio>-->
+    <audio id="audio" src="./strange_moon_loop (1).flac" loop="loop"></audio>
 
     <script>
-        let myAudio = document.querySelector('#audio')
-    myAudio.play()
+        let myAudio = document.querySelector('audio')
+    window.onload = function() { document.getElementById("audio").play(); }
+        myAudio.play()
     </script>
+     <script src="./index.js"></script>  
 </body>
 </html>

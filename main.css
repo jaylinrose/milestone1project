@@ -77,6 +77,10 @@ html {
     background-color: lightgray;
 }
 
+#startButton:hover, #gameButton:hover {
+    background-color: rgb(137, 137, 137);
+}
+
 #gameButton {
     position: absolute;
     z-index: 6;

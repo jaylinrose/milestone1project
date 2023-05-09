@@ -27,11 +27,12 @@
     // how to make button load page https://www.scaler.com/topics/how-to-make-a-button-link-to-another-page-in-html/
     <button id="startButton" onclick = "window.location.href='playerScreen.html';">Start</button>
     <button id="gameButton" onclick = "window.location.href='gamePlay.html';">Game Play</button>
-    <audio id="audio" src="./strange_moon_loop (1).flac"></audio>
-</body>
+    // how to add audio to page https://noaheakin.medium.com/adding-sound-to-your-js-web-app-f6a0ca728984#:~:text=The%20simplest%20way%20to%20add,starts%20playing%20the%20current%20audio.
+    <audio id="audio" audio loop src="./strange_moon_loop (1).flac"></audio>
 
-<script>
-    let myAudio = document.querySelector('#audio')
-myAudio.play()
-</script>
+    <script>
+        let myAudio = document.querySelector('#audio')
+    myAudio.play()
+    </script>
+</body>
 </html>

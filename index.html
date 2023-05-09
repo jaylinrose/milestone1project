@@ -5,21 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Foldit&display=swap" rel="stylesheet">
-    <title>Definition Of A Power-Move</title>
+<link href="https://fonts.googleapis.com/css2?family=Foldit&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+    <title>Portals</title>
 </head>
 <body>
     <div id="backgroundImage"></div>
     // image from itch.io https://edermunizz.itch.io/free-pixel-art-forest
     <img id="mainImage"src="https://img.itch.zone/aW1hZ2UvMTIxNjU4LzU2MDQxMC5wbmc=/original/hCUwLQ.png" alt="8-bit">
 
-     
-    <p>Portals</p>
+    <p>Port</p>
+    <p id="endPortal">ls</p>
+    <p id="trianglePortal">A</p>
     // how to make button load page https://www.scaler.com/topics/how-to-make-a-button-link-to-another-page-in-html/
     <button id="startButton" onclick = "window.location.href='playerScreen.html';">Start</button>
     <button id="gameButton" onclick = "window.location.href='gamePlay.html';">Game Play</button>
-
+    <audio id="audio" src="./strange_moon_loop (1).flac"></audio>
 </body>
+
+<script>
+    let myAudio = document.querySelector('#audio')
+myAudio.play()
+</script>
 </html>

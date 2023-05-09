@@ -99,6 +99,7 @@ const game = () => {
     playGame();
       
 }
-  
+ 
+}
 // Calling the game function
-game();
+game(); 

@@ -131,9 +131,19 @@ header {
 
 #backBtn {
     position: absolute;
-    z-index: 9;
+    z-index: 10;
     top: 75%;
     left: 71%;
     width: 3%;
+}
+
+#backBtn-playerScreen {
+
+    position: absolute;
+    z-index: 9;
+    top: 5%;
+    left: 95%;
+    width: 3%;
+
 }
 

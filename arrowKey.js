@@ -7,12 +7,12 @@ const game = () => {
   
     // Function to 
     const playGame = () => {
-        const leftBtn = document.querySelector('.rock');
-        const upBtn = document.querySelector('.paper');
-        const rightBtn = document.querySelector('.scissor');
-        const downBtn = document.querySelector('.scissor');
-        const playerOptions = [leftBtn,upBtn,rightBtn,downBtn];
-        const computerOptions = ['rock','paper','scissors']
+        const leftBtn = document.querySelector('#leftBtn');
+        const upBtn = document.querySelector('#upBtn');
+        const rightBtn = document.querySelector('#rightBtn');
+        const downBtn = document.querySelector('#downBtn');
+        const playerOptions = [leftBtn, upBtn, rightBtn, downBtn];
+        const computerOptions = ['leftBtn', 'upBtn' , 'rightBtn', 'downBtn']
           
         // Function to start playing game
         playerOptions.forEach(option => {
@@ -46,44 +46,17 @@ const game = () => {
         player = player.toLowerCase();
         computer = computer.toLowerCase();
         if(player === computer){
-            result.textContent = 'Tie'
+            result.textContent = 'PLayer Won'
+            playerScore++;
+            playerScoreBoard.textContent = playerScore;
         }
-        else if(player == 'rock'){
-            if(computer == 'paper'){
+        else if(player !== computer){
                 result.textContent = 'Computer Won';
                 computerScore++;
                 computerScoreBoard.textContent = computerScore;
   
-            }else{
-                result.textContent = 'Player Won'
-                playerScore++;
-                playerScoreBoard.textContent = playerScore;
             }
-        }
-        else if(player == 'scissors'){
-            if(computer == 'rock'){
-                result.textContent = 'Computer Won';
-                computerScore++;
-                computerScoreBoard.textContent = computerScore;
-            }else{
-                result.textContent = 'Player Won';
-                playerScore++;
-                playerScoreBoard.textContent = playerScore;
-            }
-        }
-        else if(player == 'paper'){
-            if(computer == 'scissors'){
-                result.textContent = 'Computer Won';
-                computerScore++;
-                computerScoreBoard.textContent = computerScore;
-            }else{
-                result.textContent = 'Player Won';
-                playerScore++;
-                playerScoreBoard.textContent = playerScore;
-            }
-        }
-    }
-  
+       
     // Function to run when game is over
     const gameOver = (playerOptions,movesLeft) => {
   

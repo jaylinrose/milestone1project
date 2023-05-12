@@ -252,9 +252,11 @@ header {
     text-transform: uppercase;
     word-spacing: 3px;
     position: absolute;
-    width: 96.5%;
+    width: 90%;
+    height: 15%;
     z-index: 16;
-    top: 83.5%;
+    top: 10%;
+    left: 3.5%
   }
 
 @-webkit-keyframes arrow_anim {

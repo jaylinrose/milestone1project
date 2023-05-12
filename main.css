@@ -158,12 +158,11 @@ html {
 #gameInstructions-container {
     position: absolute;
     z-index: 8;
-
     background-color: black;
-    top: 30%;
+    top: 20%;
     left: 24%;
-    width: 50%;
-    height: 40%;
+    width: 55%;
+    height: 50%;
 
 }
 
@@ -171,11 +170,16 @@ header {
     text-align: center;
     color: white;
     padding-top: 3%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
 }
 
 #gameInstructions-info {
     color: white;
     text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+   line-height: 27px;
 }
 
 
@@ -183,7 +187,7 @@ header {
     position: absolute;
     z-index: 10;
     top: 75%;
-    left: 71%;
+    left: 76%;
     width: 3%;
 }
 

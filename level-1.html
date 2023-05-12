@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Definition of a Power-Move</title>
+</head>
+<body>
+    <div id="backgroundImage-2"></div>
+    // image from itch.io https://edermunizz.itch.io/free-pixel-art-forest
+    <img id="level-1"src="https://img.craftpix.net/2023/04/Free-Nature-Backgrounds-Pixel-Art6-768x512.png" alt="8-bit">
+
+
+    <button id="leftBtn"><</button>
+    <button id="upBtn">^</button>
+    <button id="rightBtn">></button>
+    <button id="downBtn" onclick = "window.location.href='level-2.html';">v</button>
+    <button id="backBtn-playerScreen" onclick = "window.location.href='index.html';">Back</button>
+ <script src="./index.js"></script>  
+
+ // how to add audio to page https://noaheakin.medium.com/adding-sound-to-your-js-web-app-f6a0ca728984#:~:text=The%20simplest%20way%20to%20add,starts%20playing%20the%20current%20audio.
+ <audio id="audio-2" audio loop src="./Next to You.mp3"></audio>
+
+ <script>
+     let myAudio2 = document.querySelector('#audio-2')
+ myAudio2.play()
+ </script>
+</body>
+</html>

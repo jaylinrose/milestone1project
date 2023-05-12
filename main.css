@@ -104,7 +104,7 @@ html {
     /*font-family: 'Megrim', cursive;*/
 }
 
-#endPortal:not(:nth-child(2)) {
+#endPortal:not(:nth-child(4)) {
     position: absolute;
     z-index: 4;
     color: aliceblue;
@@ -163,7 +163,6 @@ html {
     left: 24%;
     width: 55%;
     height: 50%;
-
 }
 
 header {
@@ -229,3 +228,12 @@ header {
     height: 170%;
     z-index: -2;
 }
+
+ .title-container-transition {
+    transition: opacity 1s;
+
+  }
+
+ .title-container-transition.fade-out {  
+    opacity: 0;
+ }

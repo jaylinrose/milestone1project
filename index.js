@@ -1,16 +1,7 @@
-// define variables
-
-let guessedPattern =[]
-
-let correctPattern = ['left', 'down', 'up', 'right', 'up']
-
-//time bar
-
-//pattern tracker
-
-
-//arrow functions
-
-//sound effects
-
-//pattern reset
+let fadeOutButton = document.querySelector("#startButton");
+let box = document.querySelector(".title-container-transition");
+ 
+fadeOutButton.onclick = function(){
+   box.classList.remove("fade-out")
+   window.location.href='gameIntro.html';
+}

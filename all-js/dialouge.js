@@ -86,7 +86,7 @@ setTimeout(() => {
 let dialougeBtn = document.querySelector("#arrowBtn");
 
 dialougeBtn.onclick = function(){
-   window.location.href=('level-1.html');
+   window.location.href=('all-html-pages/level-1.html');
     
 }
 

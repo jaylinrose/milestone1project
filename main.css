@@ -352,7 +352,7 @@ header {
     opacity: 1;
  }
  
- #arrowBtn, #arrowBtn2 {
+ #arrowBtn {
     background-color: transparent;
     border: transparent;
     top: 48%;
@@ -363,6 +363,18 @@ header {
     height: 3%;
 
 
+
+ }
+
+ #arrowBtn2 {
+    background-color: transparent;
+    border: transparent;
+    top: 43%;
+    left: 12%;
+    position: absolute;
+    z-index: 17;
+    width: 12%;
+    height: 36%;
 
  }
 

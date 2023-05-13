@@ -252,7 +252,7 @@ header {
     text-transform: uppercase;
     word-spacing: 3px;
     position: absolute;
-    width: 90%;
+    width: 87%;
     height: 15%;
     z-index: 16;
     top: 10%;
@@ -310,5 +310,17 @@ header {
     opacity: 1;
  }
  
- 
+ #arrowBtn {
+    background-color: transparent;
+    border: transparent;
+    top: 25.4%;
+    left: 88.4%;
+    position: absolute;
+    z-index: 17;
+    width: 1.5%;
+    height: 3%;
+
+
+
+ }
  /* Demo styles */

@@ -9,8 +9,8 @@ var speeds = {
    superFast: 10
 };
 
-var textLines = [
-   { speed: speeds.slow, string: "Where...where am I?" },
+var textLines2 = [
+   { speed: speeds.slow, string: "Wompmpmpm" },
    { speed: speeds.pause, string: "", pause: true },
    { speed: speeds.normal, string: "Have you seen my pet" },
    { speed: speeds.fast, string: "frog"},
@@ -62,7 +62,7 @@ setTimeout(() => {
 let dialougeBtn = document.querySelector("#arrowBtn");
 
 dialougeBtn.onclick = function(){
-   window.location.href=('gameIntro copy.html');
+   window.location.href=('gameIntro2.html');
     
 }
 

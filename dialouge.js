@@ -3,7 +3,7 @@ var container = document.querySelector(".dialog");
 
 var speeds = {
    pause: 500, //Higher number = longer delay
-   slow: 120,
+   slow: 130,
    normal: 90,
    fast: 40,
    superFast: 10
@@ -22,7 +22,23 @@ var textLines = [
    { speed: speeds.pause, string: "", pause: true },
    { speed: speeds.normal, string: "*the player comes to consciousness in the middle of a dark unknown forest.*"},
    { speed: speeds.pause, string: "", pause: true },
-   { speed: speeds.normal, string: "As they emerge into consciousness, an unseen voice speaks to them. They tell the player they were given the gift to see the 'keys' of the 3D world. These magical keys are portals that unlock access to other places dare I say dimensions. The strange voice continues and tells the player they were chosen and entrusted with this special ability as they are the only one able to find the potion to end all suffering. 'You must find it or else the this world's fate is doomed,' the voice says. The mysterious voice then tells the player in riddled words how to use their new-found abilities and then vanishes into the shadows. Delirious and confused, the player thinks hard on their words and then something unbelievable happens."},
+   { speed: speeds.normal, string: "As they emerge into consciousness, an unseen voice speaks to them."}, 
+   {speed: speeds.pause, string: "", pause: true },
+   {speed: speeds.pause, string: "", pause: true },
+   {speed: speeds.normal, string: "They tell the player they were given the gift to see the 'keys' of the 3D world: portals that unlock access to other places dare I say dimensions."},
+   {speed: speeds.pause, string: "", pause: true },
+   {speed: speeds.pause, string: "", pause: true },
+   {speed: speeds.normal, string: "The strange voice continues and tells the player they were chosen and entrusted with this special ability as they are the only one able to find the potion to end all suffering."},
+   {speed: speeds.pause, string: "", pause: true },
+   {speed: speeds.pause, string: "", pause: true },
+   {speed: speeds.normal, string: "'You must find it or else this world's fate is doomed,' the voice says."}, 
+   {speed: speeds.pause, string: "", pause: true },
+   {speed: speeds.pause, string: "", pause: true },
+   {speed: speeds.normal, string: "The mysterious voice then tells the player in riddled words how to use their new-found abilities and then vanishes into the shadows."}, 
+   {speed: speeds.pause, string: "", pause: true },
+   {speed: speeds.pause, string: "", pause: true },
+   {speed: speeds.normal, string: "Delirious and confused, the player thinks hard on their words and then something unbelievable happens."}
+   //They tell the player they were given the gift to see the 'keys' of the 3D world. These magical keys are portals that unlock access to other places dare I say dimensions. The strange voice continues and tells the player they were chosen and entrusted with this special ability as they are the only one able to find the potion to end all suffering. 'You must find it or else the this world's fate is doomed,' the voice says. The mysterious voice then tells the player in riddled words how to use their new-found abilities and then vanishes into the shadows. Delirious and confused, the player thinks hard on their words and then something unbelievable happens."},
 ]
 ;
 

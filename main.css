@@ -294,8 +294,8 @@ header {
   position: absolute;
   width: 0; 
   z-index: 17;
-  top: 18%;
-  left: 65%;
+  top: 40%;
+  left: 64%;
   
   -webkit-animation: arrow_anim .3s steps(3) infinite;
   -moz-animation: arrow_anim .3s steps(3) infinite;
@@ -314,8 +314,8 @@ header {
  #arrowBtn, #arrowBtn2 {
     background-color: transparent;
     border: transparent;
-    top: 25.4%;
-    left: 88.4%;
+    top: 48%;
+    left: 87.5%;
     position: absolute;
     z-index: 17;
     width: 1.5%;
@@ -324,4 +324,4 @@ header {
 
 
  }
- /* Demo styles */
+

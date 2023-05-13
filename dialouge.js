@@ -37,8 +37,7 @@ var textLines = [
    {speed: speeds.normal, string: "The mysterious voice then tells the player in riddled words how to use their new-found abilities and then vanishes into the shadows."}, 
    {speed: speeds.pause, string: "", pause: true },
    {speed: speeds.pause, string: "", pause: true },
-   {speed: speeds.normal, string: "Delirious and confused, the player thinks hard on their words and then something unbelievable happens."}
-   //They tell the player they were given the gift to see the 'keys' of the 3D world. These magical keys are portals that unlock access to other places dare I say dimensions. The strange voice continues and tells the player they were chosen and entrusted with this special ability as they are the only one able to find the potion to end all suffering. 'You must find it or else the this world's fate is doomed,' the voice says. The mysterious voice then tells the player in riddled words how to use their new-found abilities and then vanishes into the shadows. Delirious and confused, the player thinks hard on their words and then something unbelievable happens."},
+   {speed: speeds.normal, string: "Delirious and confused, the player thinks hard on their words and then suddenly a strong force takes hold of the player. They close their eyes in fear and then suddenly all is calm and they no longer feel in danger. They open their eyes to awe and disbelief."}
 ]
 ;
 
@@ -87,7 +86,7 @@ setTimeout(() => {
 let dialougeBtn = document.querySelector("#arrowBtn");
 
 dialougeBtn.onclick = function(){
-   window.location.href=('gameIntro2.html');
+   window.location.href=('level-1.html');
     
 }
 

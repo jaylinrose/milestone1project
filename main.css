@@ -193,10 +193,10 @@ header {
 #backBtn-playerScreen {
 
     position: absolute;
-    z-index: 9;
-    top: 5%;
-    left: 95%;
-    width: 3%;
+    z-index: 18;
+    top: 94%;
+    left: 83%;
+    font-family: 'Press Start 2P', cursive;
 
 }
 
@@ -238,7 +238,7 @@ header {
     opacity: 0;
  }
 
- .dialog, .dialog2 {
+ .dialog {
     height: 70px;
     background: #1c1c1c;
     border-radius: 5px;
@@ -257,6 +257,28 @@ header {
     height: 40%;
     z-index: 16;
     top: 10%;
+    left: 3.5%
+  }
+
+  .dialog2 {
+    height: 70px;
+    background: #1c1c1c;
+    border-radius: 5px;
+    box-shadow: 0 0 0 6px #F5EAC8, 0 0 0 12px #251C00;
+    color: #F5EAC8;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 20px 20px 20px;
+    position: relative;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    line-height: 27px;
+    position: absolute;
+    width: 87%;
+    height: 11.5%;
+    z-index: 16;
+    top: 82%;
     left: 3.5%
   }
 
@@ -296,6 +318,25 @@ header {
   z-index: 17;
   top: 40%;
   left: 64%;
+  
+  -webkit-animation: arrow_anim .3s steps(3) infinite;
+  -moz-animation: arrow_anim .3s steps(3) infinite;
+  -ms-animation: arrow_anim .3s steps(3) infinite;
+  -o-animation: arrow_anim .3s steps(3) infinite;
+  animation: arrow_anim .3s steps(3) infinite;
+}
+
+#arrow2 {
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid rgb(255, 255, 255);
+  height: 0; 
+  margin: 60px 0px 0px 360px;
+  position: absolute;
+  width: 0; 
+  z-index: 17;
+  top: 84.5%;
+  left: 66%;
   
   -webkit-animation: arrow_anim .3s steps(3) infinite;
   -moz-animation: arrow_anim .3s steps(3) infinite;

@@ -238,7 +238,7 @@ header {
     opacity: 0;
  }
 
- #dialog {
+ .dialog {
     height: 70px;
     background: #1c1c1c;
     border-radius: 5px;
@@ -287,12 +287,14 @@ header {
 #arrow {
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	border-top: 10px solid red;
+	border-top: 10px solid rgb(255, 255, 255);
   height: 0; 
   margin: 60px 0px 0px 360px;
   position: absolute;
   width: 0; 
   z-index: 17;
+  top: 18%;
+  left: 65%;
   
   -webkit-animation: arrow_anim .3s steps(3) infinite;
   -moz-animation: arrow_anim .3s steps(3) infinite;
@@ -300,3 +302,13 @@ header {
   -o-animation: arrow_anim .3s steps(3) infinite;
   animation: arrow_anim .3s steps(3) infinite;
 }
+
+.dialog span {
+    opacity: 0;
+ }
+ .dialog span.revealed {
+    opacity: 1;
+ }
+ 
+ 
+ /* Demo styles */

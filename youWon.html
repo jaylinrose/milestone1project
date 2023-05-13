@@ -19,15 +19,11 @@
 <body class="gameIntro-transition">
     <div id="backgroundImage"></div>
     // image from itch.io https://edermunizz.itch.io/free-pixel-art-forest
-    <img id="mainImage"src="https://img.itch.zone/aW1hZ2UvMTIxNjU4LzU2MDQxMC5wbmc=/original/hCUwLQ.png" alt="8-bit">
-    <div class="title-container-transition">
-        <p>Port</p>
-        <p id="endPortal">ls</p>
-        <p id="trianglePortal">A</p>
-        // how to make button load page https://www.scaler.com/topics/how-to-make-a-button-link-to-another-page-in-html/
-        <button id="startButton" onclick = "window.location.href='gameIntro.html';">Start</button>
-        <button id="gameButton" onclick = "window.location.href='gamePlay.html';">Game Play</button>
-    </div>
+    <img id="mainImage2"src="./Free-Sky-with-Clouds-Background-Pixel-Art3-768x512.webp" alt="8-bit">
+    <div class="winning-header">You Won!</div>
+
+    <button id="backBtn-playerScreen" onclick = "window.location.href='index.html';">return to main menu</button>
+
    // how to add audio https://www.tutorialathome.in/html/playing-audio-page-loads-html5
     <audio class="audio" src="./strange_moon_loop (1).flac" loop="loop"></audio>
     //audio from opengameart.org
@@ -36,6 +32,5 @@
     window.onload = function() { document.getElementById("audio").play(); }
         myAudio.play()
     </script>
-     <script src="./index.js"></script>  
 </body>
 </html>

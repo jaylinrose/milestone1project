@@ -29,6 +29,15 @@ html {
     z-index: -2;
 }
 
+#mainImage2 {
+    position: absolute;
+    top: -40%;
+    left: -5%;
+    width: 110%;
+    z-index: 20;
+}
+
+
 
 #level-1 {
     position: absolute;
@@ -104,14 +113,26 @@ html {
     /*font-family: 'Megrim', cursive;*/
 }
 
-#endPortal:not(:nth-child(4)) {
+.winning-header {
+    position: absolute;
+    z-index: 23;
+    color: rgb(255, 255, 255);
+    top: 35%;
+    left: 40%;
+    width: 100%;
+    font-size: 5em;
+    font-family: 'Fredericka the Great', cursive;
+    /*font-family: 'Megrim', cursive;*/
+}
+
+#endPortal:not(:nth-child(5)) {
     position: absolute;
     z-index: 4;
     color: aliceblue;
-    font-size: 5em;
     top: 10%;
     left: 56.5%;
     font-family: 'Fredericka the Great', cursive;
+    font-size: 5em;
 }
  #trianglePortal {
         position: absolute;
@@ -193,7 +214,7 @@ header {
 #backBtn-playerScreen {
 
     position: absolute;
-    z-index: 18;
+    z-index: 21;
     top: 94%;
     left: 83%;
     font-family: 'Press Start 2P', cursive;

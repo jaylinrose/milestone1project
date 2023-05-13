@@ -29,10 +29,10 @@
         <button id="gameButton" onclick = "window.location.href='gamePlay.html';">Game Play</button>
     </div>
    // how to add audio https://www.tutorialathome.in/html/playing-audio-page-loads-html5
-    <audio id="audio" src="./strange_moon_loop (1).flac" loop="loop"></audio>
+    <audio class="audio" src="./strange_moon_loop (1).flac" loop="loop"></audio>
 
     <script>
-        let myAudio = document.querySelector('audio')
+        let myAudio = document.querySelector('.audio')
     window.onload = function() { document.getElementById("audio").play(); }
         myAudio.play()
     </script>

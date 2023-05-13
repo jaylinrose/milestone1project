@@ -27,7 +27,12 @@
     </div>
 
 <button id="backBtn" onclick = "window.location.href='index.html';">Back</button>
+<audio class="audio" src="./strange_moon_loop (1).flac" loop="loop"></audio>
 
-
+<script>
+    let myAudio = document.querySelector('.audio')
+window.onload = function() { document.getElementById("audio").play(); }
+    myAudio.play()
+</script>
 </body>
 </html>

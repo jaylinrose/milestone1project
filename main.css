@@ -251,9 +251,10 @@ header {
     position: relative;
     text-transform: uppercase;
     word-spacing: 3px;
+    line-height: 35px;
     position: absolute;
     width: 87%;
-    height: 15%;
+    height: 40%;
     z-index: 16;
     top: 10%;
     left: 3.5%

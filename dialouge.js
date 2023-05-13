@@ -10,7 +10,7 @@ var speeds = {
 };
 
 var textLines = [
-   { speed: speeds.slow, string: "'Where...where am I?" },
+   { speed: speeds.slow, string: "'Where...where am I?"},
    { speed: speeds.pause, string: "", pause: true },
    { speed: speeds.pause, string: "", pause: true },
    { speed: speeds.pause, string: "", pause: true },

@@ -16,5 +16,12 @@ The current launched game has ways to grow and develop main areas being: more an
 //resources
 
 itch.io
-
 characters idle gifs source and background forest source.
+
+https://codepen.io/ashimiro/pen/XWwoNG*/
+
+arrow animation
+
+https://codepen.io/punkydrewster713/pen/zYKdywP
+
+adding dialouge story text boxes and looping

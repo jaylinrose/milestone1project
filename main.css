@@ -282,6 +282,7 @@ header {
     left: 3.5%
   }
 
+  /*arrow animation https://codepen.io/ashimiro/pen/XWwoNG*/
 @-webkit-keyframes arrow_anim {
    from { margin-top: 58px; }
      to { margin-top: 67px; }
@@ -375,6 +376,19 @@ header {
     z-index: 17;
     width: 12%;
     height: 36%;
+
+ }
+
+ 
+ #arrowBtn3 {
+    background-color: transparent;
+    border: transparent;
+    top: 18%;
+    left: 86%;
+    position: absolute;
+    z-index: 17;
+    width: 2%;
+    height: 5%;
 
  }
 

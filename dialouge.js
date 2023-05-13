@@ -12,9 +12,15 @@ var speeds = {
 var textLines = [
    { speed: speeds.slow, string: "Where...where am I?" },
    { speed: speeds.pause, string: "", pause: true },
-   { speed: speeds.normal, string: "Have you seen my pet" },
-   { speed: speeds.fast, string: "frog"},
-   { speed: speeds.normal, string: "around?" }
+   { speed: speeds.pause, string: "", pause: true },
+   { speed: speeds.pause, string: "", pause: true },
+   { speed: speeds.slow, string: "What happened? I don't..."},
+   { speed: speeds.pause, string: "", pause: true },
+   { speed: speeds.slow, string: "I don't remember."},
+   { speed: speeds.pause, string: "", pause: true },
+   { speed: speeds.pause, string: "", pause: true },
+   { speed: speeds.pause, string: "", pause: true },
+   { speed: speeds.normal, string: "*the player comes to consciousness in the middle of a dark unknown forest.*"}
 ]
 ;
 
@@ -62,7 +68,7 @@ setTimeout(() => {
 let dialougeBtn = document.querySelector("#arrowBtn");
 
 dialougeBtn.onclick = function(){
-   window.location.href=('gameIntro copy.html');
+   window.location.href=('gameIntro2.html');
     
 }
 

@@ -238,7 +238,7 @@ header {
     opacity: 0;
  }
 
- .dialog {
+ .dialog, .dialog2 {
     height: 70px;
     background: #1c1c1c;
     border-radius: 5px;
@@ -310,7 +310,7 @@ header {
     opacity: 1;
  }
  
- #arrowBtn {
+ #arrowBtn, #arrowBtn2 {
     background-color: transparent;
     border: transparent;
     top: 25.4%;

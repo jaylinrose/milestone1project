@@ -25,3 +25,11 @@ arrow animation
 https://codepen.io/punkydrewster713/pen/zYKdywP
 
 adding dialouge story text boxes and looping
+
+WW3 schools
+
+css rules, internal styling
+
+tutorial at home
+
+buttons and onclick event listener
